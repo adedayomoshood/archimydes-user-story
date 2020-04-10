@@ -52,6 +52,8 @@ If the frontend starts successfully, you will see the following in your terminal
 
 - I assumed that when a user created a story, the default status should be `pending`, hence I updated the mock api to append `pending` to newly created stories
 
-- I observed that the API doesn't use the amount and estimates hours from the request body, in order for it not to be a blocker, I updated it 
+- I observed that the API doesn't use the amount and estimates hours from the request body, in order for this not to be a blocker, I updated the mock api 
 
-- On the Stories List page, a user is able to alphabetically sort the stories by ID, Complexity, Type and Status.  
+- On the Stories List page, a user is able to alphabetically sort the stories by ID, Complexity, Type and Status  
+
+- On the Stories List page, a user is able to filter stories by Type  
